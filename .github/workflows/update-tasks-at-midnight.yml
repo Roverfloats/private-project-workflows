@@ -1,8 +1,8 @@
-name: Update Tasks at Midnight
+name: update-tasks-at-midnight
 
 on:
   schedule:
-    - cron: "50 15 * * *"   #UTC
+    - cron: "54 15 * * *"   #UTC
   workflow_dispatch:      # Allows manual run from UI
 
 jobs:
